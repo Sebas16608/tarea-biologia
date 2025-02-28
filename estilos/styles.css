@@ -1,0 +1,64 @@
+body {
+    background-image: url(../recursos/fondo.png);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    font-family: sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.encabezado {
+    font-size: 48px;
+    text-align: center;
+    background-color: #4CAF50; /* Verde más suave */
+    color: #ffffff; /* Texto blanco */
+    padding: 18px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parrafos {
+    font-size: large;
+    text-align: justify;
+    background-color: #2196F3; /* Azul más vibrante */
+    color: #ffffff; /* Texto blanco */
+    padding: 18px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 48px;
+    color: #333333; /* Texto oscuro */
+}
+
+.foto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+p {
+    font-size: large;
+}
+.objetivos {
+    background-color: #FFD54F; /* Amarillo suave */
+    color: #333333; /* Texto oscuro */
+    padding: 18px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+.subtitulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    font-size: 28px;
+    color: #333333; /* Texto oscuro */
+}
