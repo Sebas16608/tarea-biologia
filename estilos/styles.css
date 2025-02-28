@@ -10,7 +10,7 @@ body {
 }
 
 .encabezado {
-    font-size: 48px;
+    font-size: 38px;
     text-align: center;
     background-color: #4CAF50; /* Verde más suave */
     color: #ffffff; /* Texto blanco */
@@ -35,7 +35,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     font-size: 48px;
-    color: #333333; /* Texto oscuro */
+    color: #333333;
 }
 
 .foto {
@@ -45,11 +45,12 @@ body {
     width: 30%;
 }
 p {
-    font-size: large;
+    font-size: 18px;
+    color: #333333;
 }
 .objetivos {
-    background-color: #FFD54F; /* Amarillo suave */
-    color: #333333; /* Texto oscuro */
+    background-color: #FFD54F;
+    color: #333333; 
     padding: 18px;
     width: 75%;
     margin-left: auto;
@@ -60,5 +61,212 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: left;
     font-size: 28px;
+    color: #333333;
+}
+.Listas {
+    font-size: 18px;
+    color: #333333;
+    text-align: justify;
+}
+
+.marco {
+    background-color: #F5F5F5;
+    color: #333333;
+    padding: 18px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.conclusion {
+    background-color: #2E7D32;
+    color: #ffffff;
+    padding: 18px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.con {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.foto2 {
+    display: block;
+    width: 20%;
+    float: left;
+    margin-right: 10px;
+}
+
+.bibliografia {
+    background-color: #FFF8E1; /* Beige claro */
     color: #333333; /* Texto oscuro */
+    padding: 18px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+/* imagenes conclusion */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+}
+
+/* Header */
+.header-container {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 100px; /* Ajusta el tamaño del logo */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.search-bar input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.nav-icons a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+/* Section con imágenes */
+.section-container {
+    width: 100%;
+    overflow: hidden; /* Evita que las imágenes se desborden */
+}
+
+section {
+    display: flex;
+    width: 100%;
+    height: 430px; /* Ajusta la altura según prefieras */
+    justify-content: center;
+}
+
+section img {
+    width: 25%; /* Cada imagen ocupa un 25% del ancho total */
+    height: 100%; /* Asegura que las imágenes llenen la altura del contenedor */
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+
+section img:hover {
+    cursor: crosshair;
+    width: 30%; /* Al hacer hover, la imagen se expande ligeramente */
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Ocultamos el menú normal en móviles */
+    }
+
+    .menu-toggle {
+        display: block; /* Mostramos el botón del menú */
+        font-size: 30px;
+    }
+
+    .logo {
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    section {
+        height: 300px; /* Ajusta la altura para móviles */
+    }
+
+    section img {
+        width: 50%; /* En móviles, cada imagen ocupa el 50% del ancho */
+    }
+
+    section img:hover {
+        width: 60%; /* Ajusta el hover para móviles */
+    }
+}
+
+/* Estilos generales del footer */
+.footer {
+    background-color: #333; /* Color de fondo oscuro */
+    color: #fff; /* Color del texto */
+    padding: 20px 0;
+    text-align: center; /* Centrar el contenido */
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    max-width: 1200px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centrar el contenido */
+}
+
+/* Estilos para los textos del footer */
+.footer-text {
+    margin: 10px 0; /* Espaciado entre los párrafos */
+    font-size: 16px; /* Tamaño de la fuente */
+    color: #fff;
+}
+
+.footer a {
+    color: #fff; /* Color del enlace */
+    text-decoration: none; /* Quitar subrayado */
+    font-weight: bold;
+}
+
+.footer a:hover {
+    color: #86ffba; /* Cambiar color al hacer hover */
+    text-decoration: underline; /* Subrayar al hacer hover */
+}
+
+.footer strong {
+    color: #86ffba; /* Color para resaltar tu nombre */
 }
